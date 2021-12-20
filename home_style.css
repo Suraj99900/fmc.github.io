@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 45%;
+}
+
+h1{
+    /* color: white; */
+    font-size: 2.8rem;
+    padding: 1rem;
+    font-family: 'Twinkle Star', cursive;
+}
+h2{
+    /* color: white; */
+    font-size: 2.2rem;
+    padding: 1rem;
+    font-family: 'Noto Serif', serif;
+}
+h3{
+    /* color: white; */
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: 'Noto Serif', serif;
+}
+
+p{
+    /* color: white; */
+    font-size: 1.8rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+}
+
+img{
+    width: 100%;
+}
+
+
+:root{
+    --primary-color:rgb(23, 20, 15);
+    --secondary-color:rgb(45, 38, 28);
+    --third-color:rgb(77, 68, 49);
+    --forth-color:#bcaaa4;
+}
+
+.navigation{
+    width: 100vw;
+    padding: 0.5rem;
+    background: var(--primary-color);
+    color: #fff;
+}
+
+.navigation li{
+    list-style: none;
+    margin-top:2rem ;
+}
+
+
+/* intro */
+
+
+
+
+/* gallery section */
+
+.gallery{
+    padding: 1rem;
+    background: var(--primary-color);
+}
+
+
+
+/* footer */
+
+footer{
+    margin-top: 5rem;
+    padding: 2rem;
+    width: 100vw;
+    background: var(--secondary-color);
+}
+
+footer .nav{
+    margin:2rem 0 ;
+}
